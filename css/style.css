@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #c46e3b;
+    color: white;
+}
+.header p {
+    font-size: 18px;
+    padding-top: 15px;
+}
+#img1 {
+    height: 100px;
+    margin-left: 200px;
+    padding: 10px;
+}
+#img2 {
+    margin-left: 550px;
+}
+.header span {
+    float: right;
+    margin-right: 150px;
+}
+.one .nav {
+    background-color: rgb(17, 16, 16);
+}
+.navbar-nav {
+    margin: 0 auto;
+}
+
+.two {
+    background: url('http://www.100hdwallpapers.com/wallpapers/3840x2160/bugatti_chiron_sport_110_ans_bugatti_2019_4k-hd_wallpapers.jpg');
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-top: 150px;
+    position: relative;
+}
+.two .content {
+    position: absolute;
+    top: 35%;
+    left: 11%;
+    color: #c46e3b;
+    padding: 10px 20px;
+    background-color: black;
+    opacity: 0.6;
+    border: 1px solid white;
+    font-size: 48px;
+}
+
+.three {
+    color: #c46e3b;
+    background: black;
+    opacity: 0.9;
+    padding: 40px 0;
+    font-size: 28px;
+}
+
+.four {
+    background-size: cover;
+    height: 540px;
+    padding: 30px 0;
+    position: relative;
+}
+.four::after {
+    content: "";
+    background: url('https://images.pexels.com/photos/159298/gears-cogs-machine-machinery-159298.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+.four .row {
+    margin: 0 auto;
+}
+
+.four .col-md-4 img {
+    height: 200px;
+    width: 100%;
+}
+.four h3 {
+    color: #c46e3b;
+    margin: 20px 0; 
+}
+.four button,.seven button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #df783c;
+    border: 1px solid white;
+}
+.four button:hover, .seven button:hover {
+    background: black;
+    color: white;
+}
+
+.five iframe{
+    height: 315px;
+    width: 560px;
+    margin: 40px 0 30px 400px;
+}
+
+.six {
+    background-color: #c46e3b;
+    color: white;
+    padding: 20px 100px;
+    height: 80px;
+}
+.six span {
+    display: inline-block;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 8px;
+}
+.six span i {
+    font-size: 28px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+.six span a, .six p a {
+    text-decoration: none;
+    color: white;
+}
+.six .logos img {
+    height: 40px;
+    padding: 5px;
+}
+.six .left {
+    float: left;
+}
+.six .right {
+    float: right;
+}
+.six .right img {
+    height: 40px;
+    padding: 5px;
+}
+
+.seven {
+    padding: 30px 0;
+}
+.seven .col-md-4 {
+    padding: 30px;
+}
+.seven h3 {
+    color: #c46e3b;
+}
+.seven p {
+    color: white;
+}
+.eight a{
+    text-decoration: none;
+    color: black;
+}
+.eight a:hover {
+    color: black;
+}
+
+/* Signup Modal*/
+#signUp {
+  display: none;
+  color: black;
+}
+
+#signUp .modal-body {
+  padding: 0;
+}
+
+.signup-back {
+  overflow: auto;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.main-div {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.left-div {
+ width: 40%;
+ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-dc52QIjlsJCIdqvxSPi2RngwrSGbNzPf2v8764opY2oJd9j2&s');
+ background-size: cover;
+ background-repeat: no-repeat;
+ object-fit: cover;
+ height: 380px;
+ margin-left: 0;
+ -webkit-box-shadow: 8px 0 5px -2px #888;
+ box-shadow: 8px 0 5px -2px #888;
+}
+
+.right-div {
+ margin-left: 8px;
+ margin-top: 10px;
+}
+
+.right-div h5 {
+ text-align: center;
+ font-size: 1.4rem;
+}
+
+.signupForm {
+ margin-top: 10px;
+}
+
+.check {
+ margin-left: 16px;
+}
+
+.check input {
+ margin-top: 10px;
+}
+
+.signup-btn {
+ margin-top: 25px;
+}
+
+.overlay-modal {
+ position: relative;
+ width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.6);
+ z-index: 1;
+}
+/* Signup Modal*/
